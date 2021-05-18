@@ -5,7 +5,20 @@
 編輯第一章 blarblar
 
 ```java
-//double 英文=89.2;
+package com.mycompany.mavenjavase1;
+
+/**
+ *
+ * @author User
+ */
+public class A_2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+        //double 英文=89.2;
         //double 總分 = 英文 + 80;
         double 英文 = 89.2, 總分;
         int 數學 = 80;
@@ -16,4 +29,7 @@
 
         //System.out.println("A"+3);
         System.out.println("平均: " + 總分 / 2);
+    }
+
+}
 ```
